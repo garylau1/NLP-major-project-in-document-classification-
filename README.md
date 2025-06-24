@@ -39,3 +39,17 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 |--------------------|----------|----------|-------------|----------------------------------------|
 | **Piiranha-v1**     | **99.44%** | –        | –           | Baseline fine-tuned model              |
 | **LLaMA 4 Maverick**| 87.3%    | 86.6%
+
+
+
+## ▶️ How to Use
+
+1. Open any of the testing notebooks to evaluate specific LLMs:
+   - `claude_testing.ipynb`
+   - `llama_4_testing.ipynb`
+   - `deepseek_testing.ipynb`
+
+2. View dataset insights and preprocessing:
+   - `Dataset_Visualization&Stats.ipynb`
+
+3. Evaluate model predictions using `filtered_keys_edit11 1.json` as ground truth.
