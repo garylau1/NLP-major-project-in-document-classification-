@@ -48,6 +48,9 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 ## How to Use 🚀
 
 ### 1. Environment Setup
+
+#### Notice we use AWS Bedrock to deploy and evaluate large language models—Claude, LLaMA 4 Maverick, and DeepSeek—via simple API calls in Jupyter notebooks, ensuring scalable, secure, and consistent inference across all tests.
+
 1. Install **Python 3.10**.  
 2. **Install dependencies**  
    ```bash
