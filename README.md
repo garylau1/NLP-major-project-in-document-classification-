@@ -18,6 +18,21 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 
 ---
 
+## 📂 Repository Structure
+
+| File/Folder                     | Description |
+|--------------------------------|-------------|
+| `notebook.ipynb`               | Main Jupyter Notebook for model comparison and PII classification |
+| `data/`                        | Folder containing OCR-processed and pseudonymized text files |
+| `ground_truth.json`            | Manually annotated labels for PII/non-PII |
+| `eval.py`                      | Script to evaluate model output against ground truth (Precision, Recall, F1) |
+| `prompt_templates/`            | Contains prompt formats for LLMs like Claude, LLaMA 4, etc. |
+| `README.md`                    | Project overview and documentation |
+| `NLP major project.pdf`        | Full academic report submitted for COMP8420 |
+
+
+
+
 ## 🧪 Models Compared
 
 | Model               | Accuracy | F1 Score | Latency (s) | Notes                                  |
