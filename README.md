@@ -48,21 +48,21 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 ## How to Use 🚀
 
 ### 1. Environment Setup
-0. Install **Python 3.10**.  
-1. Install dependencies:
+1. Install **Python 3.10**.  
+2. Install dependencies:
    ```bash
    pip install boto3 awscli pandas matplotlib pydantic
-
-2. Open any of the testing notebooks to evaluate specific LLMs/Piiranha-v1:
+### 2. The way to use the notebooks and files to replicate the results
+1. Open any of the testing notebooks to evaluate specific LLMs/Piiranha-v1:
    - `claude_testing.ipynb`
    - `llama_4_testing.ipynb`
    - `deepseek_testing.ipynb`
    - `Piiranha-v1`
-3. View dataset insights and preprocessing:
+2. View dataset insights and preprocessing:
    - `Dataset_Visualization&Stats.ipynb`
 
-4. Evaluate model predictions using `filtered_keys_edit11 1.json` as ground truth.
+3. Evaluate model predictions using `filtered_keys_edit11 1.json` as ground truth.
 
-5. Train and evaluate model Piiranha-v1 using `labeled_output.json` as ground truth.
+4. Train and evaluate model Piiranha-v1 using `labeled_output.json` as ground truth.
 
-6. We compare and plot our results using `Our_result.ipynb`
+5. We compare and plot our results using `Our_result.ipynb`
