@@ -37,8 +37,10 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 
 | Model               | Accuracy | F1 Score | Latency (s) | Notes                                  |
 |--------------------|----------|----------|-------------|----------------------------------------|
-| **Piiranha-v1**     | **99.44%** | –        | –           | Baseline fine-tuned model              |
-| **LLaMA 4 Maverick**| 87.3%    | 86.6%
+| **Piiranha-v1**     | **99.2%**| **95.6%**         | **0.029**       | Baseline fine-tuned model      |
+| **LLaMA 4 Maverick**     | **87.1%**| **86.6%**    | **1.038**       | Baseline fine-tuned model             |
+| **Claude 3.7**     | **99.44%** | **95.6%**  | **4.844**          | Baseline fine-tuned model             
+| **Deepseek-R1**     | -        | –        | –           | It fails to give structured output              |
 
 
 
