@@ -20,15 +20,15 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 
 ## 📂 Repository Structure
 
-| File/Folder                     | Description |
-|--------------------------------|-------------|
-| `notebook.ipynb`               | Main Jupyter Notebook for model comparison and PII classification |
-| `data/`                        | Folder containing OCR-processed and pseudonymized text files |
-| `ground_truth.json`            | Manually annotated labels for PII/non-PII |
-| `eval.py`                      | Script to evaluate model output against ground truth (Precision, Recall, F1) |
-| `prompt_templates/`            | Contains prompt formats for LLMs like Claude, LLaMA 4, etc. |
-| `README.md`                    | Project overview and documentation |
-| `NLP major project.pdf`        | Full academic report submitted for COMP8420 |
+| File/Folder                           | Description |
+|--------------------------------------|-------------|
+| `README.md`                          | Project overview and documentation |
+| `claude_testing.ipynb`               | Notebook for testing Claude model's performance on OCR text |
+| `llama_4_testing.ipynb`              | Notebook for testing LLaMA 4 Maverick model |
+| `deepseek_testing.ipynb`             | Notebook for testing DeepSeek model (includes formatting challenges) |
+| `Dataset_Visualization&Stats.ipynb`  | Notebook for preprocessing, cleaning, and visualizing dataset distribution |
+| `filtered_keys_edit11 1.json`        | Cleaned and manually annotated ground truth JSON for evaluation |
+| `original_dataset_without_labels.json` | Raw OCR-extracted dataset without labels, used before annotation |
 
 
 
