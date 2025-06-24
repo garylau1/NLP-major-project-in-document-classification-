@@ -12,7 +12,7 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 
 ## 📁 Dataset
 
-- **319** real-world Australian driver's licenses
+- **464** real-world Australian driver's licenses
 - Extracted using OCR and **pseudonymized** to protect privacy
 - Each sample is manually annotated for **PII** and **non-PII** fields
 
