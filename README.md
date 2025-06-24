@@ -49,14 +49,14 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 
 ### 1. Environment Setup
 1. Install **Python 3.10**.  
-2. Install dependencies:
-   ```bash \
+2. **Install dependencies**  
+   ```bash
    pip install \
-  boto3==1.38.42 \
-  awscli==1.40.40 \
-  pandas==2.3.0 \
-  matplotlib==3.10.3 \
-  pydantic==2.10.0
+     boto3==1.38.42 \
+     awscli==1.40.40 \
+     pandas==2.3.0 \
+     matplotlib==3.10.3 \
+     pydantic==2.10.0
 ### 2. The way to use the notebooks and files to replicate the results
 1. Open any of the testing notebooks to evaluate specific LLMs/Piiranha-v1:
    - `claude_testing.ipynb`
