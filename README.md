@@ -50,7 +50,7 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 ### 1. Environment Setup
 1. Install **Python 3.10**.  
 2. Install dependencies:
-   ```bash
+   ```bash \
    pip install \
   boto3==1.38.42 \
   awscli==1.40.40 \
