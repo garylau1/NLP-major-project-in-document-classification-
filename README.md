@@ -30,9 +30,9 @@ With the rise of identity fraud, accurate classification of PII in ID documents 
 | `filtered_dataset.json`        | Cleaned and manually annotated ground truth JSON for evaluation |
 | `original_dataset_without_labels.json` | Raw OCR-extracted dataset without labels, used before annotation |
 | `Our_result.ipynb` | We plot all results, and this notebook includes all graphs/tables of our models |
-
-
-
+| `labeled_output.json` | Cleaned and manually annotated ground truth JSON for (Piiranha model) training and evaluation |
+| `Piiranha_model.ipynb` | Notebook for testing Piiranha_model |
+| `wrapped_by_class.json` | We covert the filtered_dataset.json into a format that suits for Piiranha model training |
 ## 🧪 Models Compared
 
 | Model               | Accuracy | F1 Score | Latency (s) | Notes                                  |
